@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+% ---------------------------------
+\usepackage{sbc-template}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{color, graphicx, url, xurl}
+% ---------------------------------
+% \usepackage{caption}
+% \usepackage{subfigure}
+\usepackage{multicol}
+% ---------------------------------
+\usepackage{longtable}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{amsmath, amssymb}
+\usepackage{indentfirst}
+\newcommand{\quotes}[1]{``#1''}
+% ---------------------------------
+\usepackage{hyperref}
+% ---------------------------------
+%Preambulo
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{lscape}
+\usepackage{rotating}
+\usepackage{tabulary}
+
+\usepackage[brazil]{babel}   
+\usepackage[utf8]{inputenc}
+%\usepackage[latin1]{inputenc} 
+% ---------------------------------
+\graphicspath{{./img/}}
+% ---------------------------------
+\sloppy
+\input{sec/title.tex}
+\begin{document} 
+\maketitle
+% ---------------------------------
+\input{sec/resumo.tex}
+\input{sec/introducao.tex}
+\input{sec/metodologia.tex}
+\input{sec/conclusao.tex}
+% ---------------------------------
+\bibliographystyle{unsrt}
+\bibliography{sbc-template}
+\end{document}
